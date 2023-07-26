@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #dogList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .dogCard {
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .dogCard img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .dogCard:hover img {
+    transform: scale(1.1);
+  }
+  
+  #dogInfo {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
