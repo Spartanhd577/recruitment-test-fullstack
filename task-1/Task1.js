@@ -1,10 +1,12 @@
-// Desde la siguiente matriz, invierta, pero mantenga los caracteres especiales en la misma posición.
-// [n,2,&,a,l,9,$,q,47,i,a,j,b,z,%,8] 
-// En este caso:
-// & debe estar en la posición 2
-// $ debe estar en la posición 6
-// % debe estar en la posición 14
-// La solución debe ser dinámica (si la posición del carácter especial cambió, manténgala igual).
+// From the following array, reverse it, but keep the special characters in the same position.
+
+// [n,2,&,a,l,9,$,q,47,i,a,j,b,z,%,8]
+// In this case:
+
+// & must be in position 2
+// $ must be in position 6
+// % must be in position 14
+// The solution needs to be dynamic (if the special character's position changed, keep it as same).
 
 function invertWithSpecialChars(arr) {
   const specialCharsPositions = [];
