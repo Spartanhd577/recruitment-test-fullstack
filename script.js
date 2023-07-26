@@ -1,4 +1,4 @@
-const apiKey = 'https://dog.ceo/api/breeds/list/all'; // Replace with your Dog API key
+const apiKey = '/hound/list'; // Replace with your Dog API key
 const dogListElement = document.getElementById('dogList');
 const dogInfoElement = document.getElementById('dogInfo');
 
@@ -41,7 +41,6 @@ function displayDogBreeds(breeds) {
 
 // Show first three sub-breeds on hover
 function showSubBreeds(breed) {
-    console.log(breed, 'adios')
     if (Array.isArray(breed.subBreeds) && breed.subBreeds.length > 0) {
       const subBreeds = breed.subBreeds.slice(0, 3).join(', ');
       dogInfoElement.textContent = `Sub-breeds: ${subBreeds}`;
